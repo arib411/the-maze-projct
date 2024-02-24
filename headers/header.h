@@ -1,6 +1,18 @@
 #ifndef Demo_h
 #define Demo_h
 
+#include <stdlib.h>
+#include <stddef.h>
+#include <stdio.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <math.h>
+#include <time.h>
+
 #define SCREEN_WIDTH 1080
 #define SCREEN_HEIGHT 600
 #define gun_scale 0.35
@@ -17,17 +29,9 @@
 #define RAD_DEG 57.296
 #define num_rays 60
 
-#include <stdlib.h>
-#include <stddef.h>
-#include <stdio.h>
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <math.h>
-#include <time.h>
+
+
+
 
 /**
  * struct SDL_Instance - structure for sdl instance
