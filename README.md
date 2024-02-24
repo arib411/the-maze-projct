@@ -24,7 +24,7 @@ root@h:cd ~/Downloads$sudo ./install_SDL2.sh
   ```
   gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm $(sdl2-config --cflags --libs) -lSDL_image -o maze
    ```
- - Execute ./mazea and play game.
+ - Execute ./maze and play game.
  - Use up and down arrow keys to move forward and backward (keys w and s serve the same function)
  - Use right and left arrow keys to turn the camera arround (keys d and a serve the same function)
 # Controls
